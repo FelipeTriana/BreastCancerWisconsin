@@ -10,18 +10,18 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 
 2. Diagnosis (M = malignant, B = benign)
 
-3-32. Ten real-valued features are computed for each cell nucleus:
+3. (3-32)Ten real-valued features are computed for each cell nucleus:
 
-a) radius (mean of distances from center to points on the perimeter)
-b) texture (standard deviation of gray-scale values)
-c) perimeter
-d) area
-e) smoothness (local variation in radius lengths)
-f) compactness (perimeter^2 / area - 1.0)
-g) concavity (severity of concave portions of the contour)
-h) concave points (number of concave portions of the contour)
-i) symmetry
-j) fractal dimension ("coastline approximation" - 1)
+  * radius (mean of distances from center to points on the perimeter)
+  * texture (standard deviation of gray-scale values)
+  * perimeter
+  * area
+  * smoothness (local variation in radius lengths)
+  * compactness (perimeter^2 / area - 1.0)
+  * concavity (severity of concave portions of the contour)
+  * concave points (number of concave portions of the contour)
+  * symmetry
+  * fractal dimension ("coastline approximation" - 1)
 
 The mean(3-12), standard error(13-22) and "worst"(23-32) or largest (mean of the three largest values) of these features were computed for each image, resulting 
 in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
